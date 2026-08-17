@@ -117,3 +117,8 @@ include_directories(目录1 目录2 ...)
 target_include_directories(<target> PUBLIC 目录1)
 ```
 >一般用这个
+
+## 打开compile_commands文件输出
+```cmake
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+```
